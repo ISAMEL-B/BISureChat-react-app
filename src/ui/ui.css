@@ -1,0 +1,54 @@
+/* Button Styles */
+.button-base {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.button-purple {
+  background-color: #9370db;
+  color: white;
+}
+
+.button-purple:hover {
+  background-color: #b399d4;
+}
+
+.button-green {
+  background-color: #a8e6cf;
+  color: #333;
+}
+
+.button-green:hover {
+  background-color: #75c9b7;
+}
+
+.button-outline {
+  background: transparent;
+  border: 1px solid #9370db;
+  color: #9370db;
+}
+
+.button-outline:hover {
+  background-color: #f0e6fa;
+}
+
+/* Input Styles */
+.input-base {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-base:focus {
+  outline: none;
+  border-color: #9370db;
+  box-shadow: 0 0 0 2px rgba(147, 112, 219, 0.2);
+}
